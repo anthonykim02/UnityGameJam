@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/NewBehaviourScript.cs">
     <Files>
-      <File FileName="Assets/NewBehaviourScript.cs" Line="21" Column="12" />
+      <File FileName="Assets/Laser.cs" Line="16" Column="49" />
+      <File FileName="Assets/NewBehaviourScript.cs" Line="59" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

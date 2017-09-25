@@ -10,6 +10,8 @@ public class NewBehaviourScript : MonoBehaviour {
 	private float moveX;
 	private float moveY;
 
+	public GameObject laserObject;
+
 	// Update is called once per frame
 	void Update () {
 		PlayerMove ();
@@ -48,7 +50,9 @@ public class NewBehaviourScript : MonoBehaviour {
 	}
 
 	void Ability1() {
-		print ("ability 1");
+		GameObject createdLaser = Instantiate(laserObject);
+		createdLaser.transform.position = transform.position;
+		createdLaser.GetComponent<Laser>().init(1, new Vector2(1, 0));
 	}
 
 	void Ability2() {
